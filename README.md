@@ -64,7 +64,7 @@ resume-optimizer/
 ### Prerequisites
 - Node.js 18+
 - MongoDB (local or MongoDB Atlas)
-- Anthropic API key
+- Gemini API key
 
 ### 1. Clone / extract the project
 
@@ -87,7 +87,7 @@ Edit `server/.env`:
 PORT=5000
 MONGODB_URI=mongodb://localhost:27017/resume-optimizer
 JWT_SECRET=your_super_secret_jwt_key_minimum_32_chars
-ANTHROPIC_API_KEY=sk-ant-your-key-here
+GEMINI_API_KEY=sk-ant-your-key-here
 CLIENT_URL=http://localhost:5173
 NODE_ENV=development
 ```
